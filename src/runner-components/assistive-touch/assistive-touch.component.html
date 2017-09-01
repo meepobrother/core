@@ -1,0 +1,19 @@
+<div class="container" #container (click)="onClick()"></div>
+<div class="bg" *ngIf="open" (click)="open = false"></div>
+<div class="quick-menu-contatiner" *ngIf="open">
+    <ul>
+        <li *ngFor="let item of items">
+            <a href="javascript:;" (click)="go(item)">
+                <i [class]="item.icon"></i>
+                <p>{{item.title}}</p>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" *ngIf="util.isAdmin" (click)="add()">
+                <i class="add-icon"></i>
+                <p>插件</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<template-select (onClose)="openThemes()" *ngIf="showTemplate"></template-select>
