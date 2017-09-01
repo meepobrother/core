@@ -15,6 +15,11 @@
 > - @angular/http
 > - @angular/router
 > - @angular/common
+> - @angular/cli
+> - @angular/material
+
+- angular第三方库
+> - @ng-bootstrap/ng-bootstrap
 
 
 - vue
