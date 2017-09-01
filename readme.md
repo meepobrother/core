@@ -8,13 +8,13 @@
 
 #### 前端框架
 - angular
-> @angular/core
-> @angular/cdk
-> @angular/animations
-> @angular/forms
-> @angular/http
-> @angular/router
-> @angular/common
+> - @angular/core
+> - @angular/cdk
+> - @angular/animations
+> - @angular/forms
+> - @angular/http
+> - @angular/router
+> - @angular/common
 
 
 - vue
